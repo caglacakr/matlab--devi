@@ -163,20 +163,26 @@ a = log(x) , e tabanında doğal logaritma (ln) fonksiyonudur.
 b = rand(), 0 ile 1 arasında rastgele değerler döndürür. Rastgele değerler düzgün bir dağılım izler ve dolayısıyla ortalama değer 0,5 olur.
     randn() , -sonsuz ve +sonsuz arasında rastgele değerler döndürür. Rastgele değerler, ortalama değeri 0 ve standart sapması 1 olan normal bir dağılımı izleyecektir.
 
-c = matris gücü
+c = 
+
+mpower
 
 C = A^B, A'yı B gücüne hesaplar ve sonucu C'ye döndürür.
 
-Öğe bazında güç
+power
 
 C = A.^B, A'nın her öğesini B'deki karşılık gelen güçlere yükseltir. A ve B'nin boyutları aynı veya uyumlu olmalıdır.
 
 
-d = Çıkarma
+d = 
+
+minus
+
 C = A - B, karşılık gelen öğeleri çıkararak B dizisini A dizisinden çıkarır.
 A ve B boyutları aynı veya uyumlu olmalıdır.
 
-tekli eksi
+uminus
+
 C = -A, A'nın öğelerini olumsuzlar ve sonucu C'de saklar.
 
 
